@@ -3,7 +3,7 @@ import '../styles/App.css';
 import {useSelector,useDispatch} from "react-redux";
 import { onNorth,onSouth,onEast,onWest } from '../actions/index.js';
 const App = () => {
-const myState = useSelector((state)=>state.tellDirection);
+const direction = useSelector((state)=>state.tellDirection);
 //code here
 
   return (
