@@ -13,7 +13,7 @@ const direction = useSelector((state)=>state.tellDirection);
        <h1>Direction Sense  </h1>
        <div className='styles'><button onClick={} id='north'>N</button></div> 
         <button onClick={} id='west'>W</button>
-        <input id='input' value={myState}/>
+        <input id='input' value={direction}/>
         <button onClick={} id='east'>E</button><br/>
         <div className='styles'><button onClick={} id='south'>S</button></div>
 
